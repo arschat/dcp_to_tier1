@@ -8,3 +8,4 @@ tier1_output/*
 !dcp_spreadsheets/ImmuneLandscapeccRCC_metadata_30-01-2023.xlsx
 !flat_dcp/ImmuneLandscapeccRCC_metadata_30-01-2023_flat_biomaterial.csv
 !tier1_output/ImmuneLandscapeccRCC_metadata_30-01-2023_*
+tier1_mapping.xlsx
