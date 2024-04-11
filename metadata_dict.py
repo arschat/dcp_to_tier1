@@ -20,7 +20,7 @@ dcp_to_tier1_mapping = {
 	'specimen_from_organism.biomaterial_core.timecourse.value': 'sample_collection_relative_time_point',
 	'cell_suspension.biomaterial_core.biomaterial_id': 'library_id',
 	'cell_suspension.biomaterial_core.biomaterial_name': 'library_id_repository',
-	'cell_suspension.biomaterial_core.biomaterial_description': 'author_batch_notes',
+	# 'cell_suspension.biomaterial_core.biomaterial_description': 'author_batch_notes',
 	'donor_organism.biomaterial_core.ncbi_taxon_id': 'organism_ontology_term_id',
 	'donor_organism.death.hardy_scale': 'manner_of_death',
 	'donor_organism.death.cause_of_death': 'manner_of_death_string',
