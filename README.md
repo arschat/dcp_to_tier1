@@ -22,4 +22,8 @@ pip install -r requirements.txt
     - No support for "Spatial transcriptomics" data
 - [flat_dcp_to_tier1.ipynb](flat_dcp_to_tier1.ipynb)
     - Will not populate Tier 1 fields at the cell level (cell type related fields)
-    - Some DCP field values are not yet mapped to their Tier 1 
+    - Some automations that map conditionally DCP values to Tier 1, are not yet implemented
+        - `institute`
+        - `sample_collection_relative_time_point`
+        - `cell_enrichment` is not ontologised
+        - `sample_collection_year` is not generalised to year
