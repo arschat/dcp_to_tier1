@@ -3,7 +3,7 @@ dcp_to_tier1_mapping: dictionary with mapping between DCP and Tier 1 fields
 tier1: tier 1 v0.3 list
 hca_keys: include all fields that were available for initial kidney convertion
 for updated mapping:
-https://docs.google.com/spreadsheets/d/1Jqq5Ql_C2mPgyCIOrijmGZRa3pIAFtBT/edit#gid=1262557540
+https://docs.google.com/spreadsheets/d/12LzqHj78CLpalRiaPIoCJcAKM1mCmzpu
 """
 
 dcp_to_tier1_mapping = {
