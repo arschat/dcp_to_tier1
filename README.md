@@ -25,6 +25,7 @@ pip install -r requirements.txt
 - [flat_dcp_to_tier1.ipynb](flat_dcp_to_tier1.ipynb)
     - Will not populate Tier 1 fields at the cell level (cell type related fields)
     - Some automations that map conditionally DCP values to Tier 1, are not yet implemented
+        - `library_id_repository`
         - `institute`
         - `sample_collection_relative_time_point`
         - `cell_enrichment` is not ontologised
