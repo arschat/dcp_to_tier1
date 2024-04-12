@@ -2,6 +2,8 @@
 
 This is a project to convert the metadata schema from Human Cell Atlas Data Platform (formelrly known as DCP, Data Coordination Platform) to Human Cell Atlas Tier 1.
 
+We first convert the DCP metadata spreadsheet to an intermediate flat csv file (in [flat_dcp](flat_dcp/)) and then we convert the flat_dcp file to tier1 based on the mapping specified in the [metadata_dict.py](metadata_dict.py) and [here](https://docs.google.com/spreadsheets/d/12LzqHj78CLpalRiaPIoCJcAKM1mCmzpu/edit#gid=505822894).
+
 ## Usage
 
 To convert metadata, run the two notebooks in this sequence:
