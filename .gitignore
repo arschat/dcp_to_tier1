@@ -4,6 +4,7 @@ __pycache__/
 dcp_spreadsheets/*
 flat_dcp/*
 tier1_output/*
+blood_eQTL
 
 !dcp_spreadsheets/ImmuneLandscapeccRCC_metadata_30-01-2023.xlsx
 !flat_dcp/ImmuneLandscapeccRCC_metadata_30-01-2023_flat_biomaterial.csv
