@@ -111,9 +111,44 @@ kidney_core_alignment = {
     'Diabetic Nephropathy snRNA-seq': 'STAR v2.6.0',
     'GSE118184KidneyOrganoid': 'STAR v2.5.3a',
     'RenalTumorMicroenvironment': 'Cellranger v2.1.1',
-    'HumanAdultKidneyLiaoMo.xlsx': 'Cellranger v3.0'
+    'HumanAdultKidneyLiaoMo': 'Cellranger v3.0',
+	# pancreas
+	'pancreasNormalIslets': 'Cellranger v1.1.0',			
+	'Healthy_and_type_2_diabetes_pancreas': 'STAR v2.3.0e',
+	'Herrera-Human-10x3pv3': 'kallisto v0.43.1',
+	'Faryabi-Human-10x3pv2': 'Cellranger v3.0.1',
+	'HealthyAndDiabeticPancreas': 'STAR',
+	'CPmicroEnvironment': 'Cellranger v4.0',
+	'scHumanPancreaticIslets': 'STAR v2.6',
+	'HumanMousePancreas': 'Bowtie 1.1.1',
+	'dcp5924379466506983': 'Cellranger v3',
+	'Lickert-Human-10x3pv2': 'Cellranger v2.0.0',
+	'HumanT2DPancreas': 'Bowtie2',
+	'EastAsianPancreaticIslets': 'Partek Genomics Suite ver6.6',
+	'HumanEndocrinePancreas': 'RNA-seq unified mapper',
+	'HumanIsletType2Diabetes': 'CLC Bio Genomics Workbench 7',
+	'Single cell transcriptome analysis of human pancreas': 'STAR',
+	'pancreasCelSeq2': 'bwa v0.6.2-r126'
 }
 
+genome_reference = {
+	'pancreasNormalIslets': 'GRCh37',			
+	'Healthy_and_type_2_diabetes_pancreas': 'GRCh37',
+	'Herrera-Human-10x3pv3': 'GRCh38',
+	'Faryabi-Human-10x3pv2': 'GRCh38',
+	'HealthyAndDiabeticPancreas': 'GRCh37',
+	'CPmicroEnvironment': 'GRCh38',
+	'scHumanPancreaticIslets': 'GRCh38',
+	'HumanMousePancreas': 'GRCh38',
+	'dcp5924379466506983': 'GRCh37',
+	'Lickert-Human-10x3pv2': 'GRCh37',
+	'HumanT2DPancreas': 'GRCh37',
+	'EastAsianPancreaticIslets': 'GRCh37',
+	'HumanEndocrinePancreas': 'GRCh37',
+	'HumanIsletType2Diabetes': 'GRCh37',
+	'Single_cell_transcriptome_analysis_of_human_pancreas': 'GRCh37',
+	'pancreasCelSeq2': 'GRCh37'
+}
 
 
 hca_keys = ["analysis_file.matrix_cell_count","cell_suspension.biomaterial_core.biomaterial_id","specimen_from_organism.organ.text","specimen_from_organism.organ.ontology","specimen_from_organism.organ.ontology_label","specimen_from_organism.organ_parts.text","specimen_from_organism.organ_parts.ontology","specimen_from_organism.organ_parts.ontology_label","sequencing_protocol.instrument_manufacturer_model.text","sequencing_protocol.instrument_manufacturer_model.ontology","sequencing_protocol.instrument_manufacturer_model.ontology_label","library_preparation_protocol.library_construction_method.text","library_preparation_protocol.library_construction_method.ontology","library_preparation_protocol.library_construction_method.ontology_label","library_preparation_protocol.nucleic_acid_source","donor_organism.organism_age","donor_organism.sex","donor_organism.medical_history.test_results","donor_organism.biomaterial_core.biomaterial_description","donor_organism.medical_history.treatment","donor_organism.timecourse.value","specimen_from_organism.diseases.text","specimen_from_organism.diseases.ontology","specimen_from_organism.diseases.ontology_label","donor_organism.diseases.text","donor_organism.diseases.ontology","donor_organism.diseases.ontology_label","donor_organism.medical_history.smoking_history","donor_organism.is_living","specimen_from_organism.preservation_storage.preservation_method","donor_organism.human_specific.ethnicity.text","donor_organism.human_specific.ethnicity.ontology","donor_organism.human_specific.ethnicity.ontology_label","analysis_file.genome_assembly_version","library_preparation_protocol.cell_barcode.barcode_read","library_preparation_protocol.cell_barcode.barcode_offset","library_preparation_protocol.cell_barcode.barcode_length","library_preparation_protocol.input_nucleic_acid_molecule.text","library_preparation_protocol.input_nucleic_acid_molecule.ontology","library_preparation_protocol.input_nucleic_acid_molecule.ontology_label","library_preparation_protocol.end_bias","library_preparation_protocol.strand","library_preparation_protocol.umi_barcode.barcode_read","library_preparation_protocol.umi_barcode.barcode_offset","library_preparation_protocol.umi_barcode.barcode_length","sequencing_protocol.10x.fastq_method","sequencing_protocol.method.text","sequencing_protocol.method.ontology","sequencing_protocol.method.ontology_label","cell_suspension.biomaterial_core.biosamples_accession","cell_suspension.biomaterial_core.insdc_sample_accession","cell_suspension.growth_conditions.culture_environment","cell_suspension.selected_cell_types.text","cell_suspension.selected_cell_types.ontology","cell_suspension.selected_cell_types.ontology_label","cell_suspension.plate_based_sequencing.plate_label","enrichment_protocol.method.text","enrichment_protocol.method.ontology","enrichment_protocol.method.ontology_label","enrichment_protocol.markers","enrichment_protocol.maximum_size","dissociation_protocol.method.text","dissociation_protocol.method.ontology","dissociation_protocol.method.ontology_label","specimen_from_organism.adjacent_diseases.text","specimen_from_organism.adjacent_diseases.ontology","specimen_from_organism.adjacent_diseases.ontology_label","specimen_from_organism.preservation_storage.storage_time","collection_protocol.method.text","collection_protocol.method.ontology","collection_protocol.method.ontology_label","donor_organism.human_specific.body_mass_index","donor_organism.death.cause_of_death","donor_organism.medical_history.alcohol_history","donor_organism.medical_history.medication","donor_organism.gestational_age","donor_organism.gestational_age_unit.text","aggregate_generation_protocol.protocol_core.protocols_io_doi","analysis_file.genome_patch_version","analysis_protocol.protocol_core.protocols_io_doi","cell_line.biomaterial_core.biomaterial_description","cell_line.biomaterial_core.biomaterial_id","cell_line.biomaterial_core.biomaterial_name","cell_suspension.biomaterial_core.biomaterial_description","cell_suspension.biomaterial_core.biomaterial_name","cell_suspension.cell_morphology.percent_cell_viability","cell_suspension.estimated_cell_count","collection_protocol.protocol_core.protocols_io_doi","differentiation_protocol.protocol_core.protocols_io_doi","dissociation_protocol.protocol_core.protocol_id","dissociation_protocol.protocol_core.protocols_io_doi","dissociation_protocol.protocol_core.protocol_description","donor_organism.biomaterial_core.biomaterial_id","donor_organism.biomaterial_core.biomaterial_name","donor_organism.biomaterial_core.timecourse.relevance","donor_organism.biomaterial_core.timecourse.unit.text","donor_organism.biomaterial_core.timecourse.unit.ontology","donor_organism.biomaterial_core.timecourse.unit.ontology_label","donor_organism.biomaterial_core.timecourse.value","donor_organism.development_stage.text","donor_organism.development_stage.ontology","donor_organism.development_stage.ontology_label","donor_organism.genus_species.text","donor_organism.genus_species.ontology","donor_organism.genus_species.ontology_label","donor_organism.biomaterial_core.ncbi_taxon_id","donor_organism.gestational_age_unit.text","donor_organism.gestational_age_unit.ontology","donor_organism.gestational_age_unit.ontology_label","donor_organism.human_specific.ethnicity.text","donor_organism.organism_age_unit.text","donor_organism.organism_age_unit.ontology","donor_organism.organism_age_unit.ontology_label","enrichment_protocol.protocol_core.protocols_io_doi","imaged_specimen.biomaterial_core.biomaterial_description","imaged_specimen.biomaterial_core.biomaterial_name","imaging_preparation_protocol.protocol_core.protocols_io_doi","imaging_protocol.protocol_core.protocols_io_doi","ipsc_induction_protocol.protocol_core.protocols_io_doi","library_preparation_protocol.library_construction_method.text","library_preparation_protocol.protocol_core.protocols_io_doi","organoid.biomaterial_core.biomaterial_description","organoid.biomaterial_core.biomaterial_name","project.contributors.corresponding_contributor","project.contributors.institution","project.contributors.name","project.contributors.project_role.text","project.contributors.project_role.ontology","project.contributors.project_role.ontology_label","project.publications.doi","sequence_file.lane_index","sequencing_protocol.protocol_core.protocols_io_doi","specimen_from_organism.biomaterial_core.biomaterial_description","specimen_from_organism.biomaterial_core.biomaterial_id","specimen_from_organism.biomaterial_core.biomaterial_name","specimen_from_organism.biomaterial_core.timecourse.relevance","specimen_from_organism.biomaterial_core.timecourse.unit.text","specimen_from_organism.biomaterial_core.timecourse.unit.ontology","specimen_from_organism.biomaterial_core.timecourse.unit.ontology_label","specimen_from_organism.biomaterial_core.timecourse.value","specimen_from_organism.collection_time","specimen_from_organism.preservation_storage.storage_method","treatment_protocol.protocol_core.protocols_io_doi"]
