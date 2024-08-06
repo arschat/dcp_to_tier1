@@ -60,7 +60,8 @@ dcp_to_tier1_mapping = {
 	# none: 'cell_type_ontology_term_id',
 	'donor_organism.diseases.ontology': 'disease_ontology_term_id',
 	'donor_organism.human_specific.ethnicity.ontology': 'self_reported_ethnicity_ontology_term_id',
-	'donor_organism.organism_age': 'development_stage_ontology_term_id'
+	'donor_organism.organism_age': 'age',
+	'donor_organism.organism_age_unit.ontology_label': 'age_unit'
 }
 tier1 = {'uns': ['title', 'study_pi', 'batch_condition', 'default_embedding', 'comments'], 
 		 'obs': ['sample_id', 'donor_id', 'protocol_url', 'institute', 'sample_collection_site', 
